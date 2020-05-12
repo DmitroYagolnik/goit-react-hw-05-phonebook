@@ -1,0 +1,58 @@
+$border-radius_elem: 5px;
+$width_elem: 95%;
+$font-family_elem: Arial, Helvetica, sans-serif;
+$font-size_elem: 28px;
+$transition_elem: 250ms ease-in-out;
+
+.FormContainer {
+  margin: 35px auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid lightgray;
+  border-radius: $border-radius_elem;
+  padding: 10px;
+  box-shadow: 0 3px 4px grey;
+}
+
+.labelContainer {
+  width: $width_elem;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  font-family: $font-family_elem;
+  font-size: $font-size_elem;
+}
+
+.inputForm {
+  padding: 20px;
+  font-family: $font-family_elem;
+  font-size: $font-size_elem;
+  background-color: white;
+  border: 2px solid gray;
+  border-radius: $border-radius_elem;
+}
+
+.inputForm:focus {
+  border-color: lightblue;
+}
+
+.submitButton {
+  cursor: pointer;
+  margin: 15px 0;
+  width: $width_elem;
+  padding: 20px;
+  background-color: darkblue;
+  color: white;
+  font-family: $font-family_elem;
+  font-size: $font-size_elem;
+  border-radius: $border-radius_elem;
+  box-shadow: 0 2px 4px grey;
+  transition: $transition_elem;
+}
+
+.submitButton:hover {
+  background-color: #333399;
+  transition: $transition_elem;
+}

@@ -1,0 +1,38 @@
+$border-radius_elem: 5px;
+$width_elem: 95%;
+$font-family_elem: Arial, Helvetica, sans-serif;
+$font-size_elem: 28px;
+
+.filterContainer {
+  width: 100%;
+  margin: 35px auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid lightgray;
+  border-radius: $border-radius_elem;
+  box-shadow: 0 3px 4px grey;
+}
+
+.filterLabel {
+  width: $width_elem;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  font-family: $font-family_elem;
+  font-size: $font-size_elem;
+}
+
+.filterInput {
+  padding: 20px;
+  font-family: $font-family_elem;
+  font-size: $font-size_elem;
+  background-color: white;
+  border: 2px solid gray;
+  border-radius: $border-radius_elem;
+}
+
+.filterInput {
+  border-color: lightblue;
+}

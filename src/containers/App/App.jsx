@@ -61,12 +61,6 @@ class App extends Component {
     });
   };
 
-  // deleteContact = (id) => {
-  //   this.setState((state) => ({
-  //     contacts: state.contacts.filter((contact) => contact.id !== id),
-  //   }));
-  // };
-
   changeErrorMessage = errorText => {
     this.setState({
       errorMessage: errorText,
